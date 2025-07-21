@@ -8,7 +8,7 @@ const secondsSpan = document.getElementById('seconds');
 // Set the launch date (adjust this to your desired launch date for EchoPlex)
 // Example: October 27, 2025 (as per your initial roadmap for token launch/marketplace)
 // Month is 0-indexed (January is 0, December is 11)
-const launchDate = new Date('October 27, 2025 00:00:00').getTime();
+const launchDate = new Date('December 21, 2025 00:00:00').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
